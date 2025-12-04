@@ -15,33 +15,43 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  gap: 20px;
+  background-color: #111111;
+  anchor-name: --some-anchor;
 }
 main .box {
-  width: 250px;
-  height: 200px;
+  width: 150px;
+  height: 80px;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 main .box:hover {
   anchor-name: --some-anchor;
+  transform: scale(1.1);
+}
+main .box h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 main .red {
-  background-color: red;
+  background-color: rgb(178, 32, 32);
 }
 main .blue {
-  background-color: blue;
+  background-color: rgb(22, 22, 189);
 }
 main .green {
-  background-color: green;
+  background-color: rgb(33, 172, 33);
 }
 main .anchor {
-  width: 250px;
-  height: 200px;
-  border-radius: 10px;
-  background-color: yellow;
+  background-color: white;
   position: absolute;
-  top: anchor(top);
-  right: anchor(right);
-  left: anchor(left);
-  bottom: anchor(bottom);
+  top: anchor(--some-anchor top);
+  left: anchor(--some-anchor left);
+  right: anchor(--some-anchor right);
+  bottom: anchor(--some-anchor bottom);
+  pointer-events: none;
   position-anchor: --some-anchor;
+  transition: all 0.3s linear;
+  mix-blend-mode: difference;
 }/*# sourceMappingURL=style.css.map */
