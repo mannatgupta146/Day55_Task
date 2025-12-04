@@ -1,54 +1,52 @@
 # Day 55 Task | Cohort 2.0
 
-This project is my **Day 54 Task**, where I created a glowing **Rotating Conic-Gradient Border Card UI** using **HTML, SCSS, and JavaScript**.  
-When the user hovers over the card, the border begins to rotate smoothly, creating an electric, dynamic effect that highlights the Pikachu card.
+This project is my **Day 55 Task**, where I created an interactive **Anchor-Based Hover Highlight UI** using **HTML, SCSS, and the CSS Anchor Positioning API**.  
+When the user hovers over any colored box, a dynamic highlight automatically moves to that box using CSS Anchors, creating a smooth and modern hover-follow effect.
 
 ## 🎥 Demo
 Below is a quick preview of how the animation looks:
 
-![Demo GIF](./assets/demo.gif)
+![Demo GIF](./demo.gif)
 
+## 📌 About the Day 55 Task
+Day 55 focused on understanding the **CSS Anchor Positioning API**, which allows elements to position themselves relative to others without using JavaScript. I learned how to:
 
-## 📌 About the Day 54 Task
-Day 54 focused on understanding **CSS @property**, **conic gradients**, and **animated borders**. I learned how to:
-
-- Use `@property` to animate CSS custom variables  
-- Create a rotating border using **conic-gradient**  
-- Control animation playback using `animation-play-state`  
-- Design an attractive glowing card UI  
-- Use SCSS nesting for neat and organized styling  
-- Apply smooth hover-triggered animations  
+- Use `anchor-name` and `position-anchor` to link UI elements  
+- Move an element (highlight) dynamically using anchors  
+- Apply `:has()` to control hover and scaling states  
+- Use SCSS nesting to maintain clean and readable styling  
+- Build hover animations entirely with CSS, no JS needed  
 
 ## ✨ Task Features
 
 | Feature | Description |
 |--------|-------------|
-| ⚡ **Rotating Conic Border** | Border rotates 360° smoothly when hovered. |
-| 🎨 **Electric Glow Effect** | Soft yellow glow enhances the Pikachu theme. |
-| 🖱️ **Hover Animation Trigger** | Animation runs only on hover for a clean UI. |
-| 💛 **Pikachu-Themed Colors** | Bright yellow tones for a Pokémon-inspired look. |
-| 🧩 **SCSS Nesting** | Clean, readable, modular styling. |
+| 🎯 **Dynamic Anchor Highlight** | A white highlight moves smoothly to the hovered box. |
+| 📦 **Scale-on-Hover Effect** | The hovered box enlarges while others shrink slightly. |
+| 🧩 **CSS Anchor Positioning** | The entire effect works without JavaScript. |
+| 🎨 **Clean, Minimal Interface** | Aesthetic layout with smooth transitions. |
+| 🧱 **SCSS Nesting** | Organized and maintainable styling. |
 
 ## 🛠️ Technologies Used
 
 - HTML  
 - SCSS  
-- JavaScript  
+- CSS Anchor Positioning  
 - VS Code  
 
 ## 📖 Learning Outcome
 
 By completing this task, I learned:
 
-- How to animate custom CSS variables with `@property`  
-- How conic gradients work and how to rotate them  
-- How to pause and resume animations on hover  
-- How SCSS nesting improves styling readability  
-- How to build aesthetic UI components with glow effects  
+- How the **CSS Anchor Positioning API** works  
+- How to dynamically align one element with another based on hover  
+- How `:has()` enables parent-level hover detection  
+- How SCSS nesting improves styling structure  
+- How advanced CSS can replace JavaScript for UI animations  
 
 ## 🌟 Acknowledgement
 
-This **Day 54 task** helped me understand advanced CSS animation properties and how gradients can be transformed into creative UI borders.  
-Thank you to **Cohort 2.0** for inspiring hands-on and innovative design challenges.
+This **Day 55 task** helped me dive deeper into modern CSS features and build fully interactive UI effects without JavaScript.  
+Thank you to **Cohort 2.0** for continuing to provide creative, hands-on design challenges.
 
 ---
